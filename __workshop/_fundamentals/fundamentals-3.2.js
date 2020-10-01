@@ -9,6 +9,13 @@
 // - If it's a number, return `undefined`
 
 function lastCharacter(str) {
+  if (str === "" || typeof str !== "string") {
+
+  }
+  else {
+  let last = str.charAt(str.length-1)
+  return last
+  }
   // Your code here
 }
 

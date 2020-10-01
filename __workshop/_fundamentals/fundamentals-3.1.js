@@ -8,6 +8,13 @@
 // - If it's an empty string (''), return undefined.
 
 function firstLetter(str) {
+  if (str === "") {
+  
+  }
+  else {
+  let first = str.charAt(0)
+  return first
+  }
   // Your code here
 }
 
